@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         )
                     ),
                   ),
+                  //Divider(),
                   SizedBox(height: 10.0,),
                   Container(
                     height: 32.0,
@@ -83,7 +84,28 @@ class _MyHomePageState extends State<MyHomePage> {
                   Container(
                       height: 5.0,
                       color: Colors.blue
-                  )
+                  ),
+                  SizedBox(height: 10.0,),
+                  Container(
+                    color: Colors.blue,
+                    padding: EdgeInsets.all(16.0),
+                    margin: EdgeInsets.symmetric(vertical: 8.0),
+                    child: Row(
+                      children: <Widget>[
+                        Icon(
+                          Icons.phone,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          '+85592200069',
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 20.0
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
                 ],
               )
             )
